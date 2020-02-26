@@ -11,10 +11,10 @@ def fizzbuzz(int)
     return "Buzz"
   end
   
-  if int % 3 != 0 and int % != 5
-    return "nil"
-  else
+  if (int % 3 == 0) and (int % 5 == 0)
     return "FizzBuzz"
+  else
+    return "nil"
   end
  
 end
